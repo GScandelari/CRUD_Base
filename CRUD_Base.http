@@ -1,0 +1,42 @@
+# GET: Listar todas as pessoas
+GET https://localhost:5001/api/pessoa
+Content-Type: application/json
+
+###
+
+# GET: Obter uma pessoa pelo ID
+GET https://localhost:5001/api/pessoa/1
+Content-Type: application/json
+
+###
+
+# POST: Criar uma nova pessoa
+POST https://localhost:5001/api/pessoa
+Content-Type: application/json
+
+{
+  "nome": "João",
+  "sobrenome": "Silva",
+  "email": "joao.silva@example.com",
+  "dataNascimento": "1990-01-01T00:00:00"
+}
+
+###
+
+# PUT: Atualizar uma pessoa existente
+PUT https://localhost:5001/api/pessoa/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "nome": "João",
+  "sobrenome": "Silva",
+  "email": "joao.silva@example.com",
+  "dataNascimento": "1990-01-01T00:00:00"
+}
+
+###
+
+# DELETE: Remover uma pessoa pelo ID
+DELETE https://localhost:5001/api/pessoa/1
+Content-Type: application/json
