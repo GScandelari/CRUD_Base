@@ -1,5 +1,3 @@
-Claro! Aqui está um exemplo de README simples para o seu projeto CRUD de cadastro de pessoas.
-
 ### README.md
 
 ```markdown
