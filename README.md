@@ -1,6 +1,5 @@
 ### README.md
 
-```markdown
 # CRUD_Base
 
 CRUD_Base é uma aplicação básica para o cadastro de pessoas, utilizando C# no backend com ASP.NET Core e Entity Framework, e um banco de dados SQL Server.
@@ -126,7 +125,7 @@ Sinta-se à vontade para fazer um fork do projeto e enviar pull requests. Qualqu
 ## Licença
 
 Este projeto está licenciado sob a [MIT License](LICENSE).
-```
+
 
 ### Adicional: Arquivo .gitignore
 
